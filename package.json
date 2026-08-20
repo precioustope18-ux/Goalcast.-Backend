@@ -1,0 +1,16 @@
+{
+  "name": "goalcast-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend for GoalCast AI — serves live football data and (soon) handles Opay payments",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
